@@ -147,7 +147,7 @@ module.exports = {
                 msg.reactions.removeAll().catch(err => process.dLogger.log(`in controller/Wiki/_paginating, failed to clear reactions: ${err.message}`))
             })
             .catch((err) => {
-                process.dLogger.log(`in controller/Wiki/_paginating, failed to await for reactions: ${err.message}`)
+                // nothing, just a timeout on pagination
             })
     }
 }
