@@ -1,4 +1,4 @@
-<h1 align="center">Unofficial Halopedia Discord Bot ⚒️</h1>
+<h1 align="center">Unofficial Halopedia Discord Bot 📚</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D12.16.1-blue.svg" />
@@ -16,7 +16,7 @@
   </a>
 </p>
 
-> A Discord bot that automatically fetches latest map submissions on forgehub.com, latest FH's tweets, and alerts whenever FH goes live on Twitch! 
+> A Discord bot that lets members search for an article over halopedia.org; it'll fetch it nicely and offer pagination. Optionnally, the bot can automatically post @Halopedia's latest tweets.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@
 A `Dockerfile` is available at the root of the project so you can easily set the bot up without having to care about any global dependency or anything. If you want to do it this way, make sure you have [Docker](https://www.docker.com) installed on your machine.
 
 ```bash session
-git clone https://github.com/Halocrea/forgehub-discordbot.git
+git clone https://github.com/Halocrea/halopedia-discordbot.git
 cd haloduels
 
 cp .env.dist .env
@@ -76,7 +76,7 @@ Use the command `!halopedia help` to get the full list of available commands. He
 
 ## Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Halocrea/forgehub-discordbot/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Halocrea/halopedia-discordbot/issues). 
 
 ## Show your support
 
