@@ -1,0 +1,17 @@
+{
+  "name": "halopedia-discordbot",
+  "version": "1.0.0",
+  "description": "A Discord bot that fetches Halopedia pages based on users' requests",
+  "main": "index.js",
+  "repository": "https://github.com/Halocrea/halopedia-discordbot",
+  "author": "Tepec Fett",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "better-sqlite3": "^7.0.1",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "striptags": "^3.1.1",
+    "url-metadata": "^2.4.0"
+  }
+}
