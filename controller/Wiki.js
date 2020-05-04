@@ -65,8 +65,8 @@ module.exports = {
                 image = imageData.data.query.pages[0].imageinfo[0].url
         }
         const url               = `https://www.halopedia.org/${data.title.replace(/ /g, '_')}`
-        const prevLimit         = page < 2 ? page < 1 ? 0 : 247 : 1024 * page 
-        const limit             = page < 1 ? 247 : 1024 * (page + 1)
+        const prevLimit         = page < 2 ? page < 1 ? 0 : 247 : 700 * page 
+        const limit             = page < 1 ? 247 : 700 * (page + 1)
         const fields            = [{ name: 'Source', value: url}]
         const shouldShowNext    = limit < strippedExtract.length
         if (page > 0)
@@ -120,7 +120,7 @@ module.exports = {
             await msg.react(prev)
 
         const strippedExtract   = striptags(page.extract)
-        const limit             = pageNb < 1 ? 247 : 1024 * (pageNb + 1)
+        const limit             = pageNb < 1 ? 247 : 700 * (pageNb + 1)
         const shouldShowNext    = limit < strippedExtract.length
         if (shouldShowNext)
             msg.react(next)
