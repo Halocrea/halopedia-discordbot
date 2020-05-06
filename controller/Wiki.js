@@ -1,5 +1,4 @@
 const axios         = require('axios')
-const Discord       = require('discord.js')
 const generateEmbed = require('../utils/generateEmbed')
 const striptags     = require('striptags') 
 
